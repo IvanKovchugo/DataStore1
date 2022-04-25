@@ -1,8 +1,6 @@
 package client;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.event.ActionEvent;
@@ -16,27 +14,27 @@ public class DataStoreController {
         private ListView<?> listOfData;
 
         @FXML
-        void onBtnDelete(ActionEvent event) {
+        public void onBtnDelete(ActionEvent event) {
 
         }
 
         @FXML
-        void onBtnDownload(ActionEvent event) {
+        public void onBtnDownload(ActionEvent event) {
 
         }
 
         @FXML
-        void onBtnRename(ActionEvent event) {
+        public void onBtnRename(ActionEvent event) {
 
         }
 
         @FXML
-        void onBtnUpdate(ActionEvent event) {
+        public void onBtnUpdate(ActionEvent event) {
 
         }
 
         @FXML
-        void onBtnUpload(ActionEvent event) {
+        public void onBtnUpload(ActionEvent event) {
 
         }
 }
